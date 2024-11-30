@@ -1,0 +1,449 @@
+2024-11-30 10:09:56 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 10584 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:09:56 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:09:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 10:09:56 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 10:09:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 10:09:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:09:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 10:09:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 10:09:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 10:09:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1221 ms
+2024-11-30 10:09:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 10:09:58 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:09:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:09:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 10:09:58 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.534 seconds (process running for 2.931)
+2024-11-30 10:10:09 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 10:10:09 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 10:10:09 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-30 10:10:09 [http-nio-8090-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/clients.]
+2024-11-30 10:10:37 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 10:10:37 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 10:10:39 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 5648 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:10:39 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:10:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 10:10:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 10:10:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 10:10:40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:10:40 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 10:10:40 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 10:10:40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 10:10:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1291 ms
+2024-11-30 10:10:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 10:10:41 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:10:41 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:10:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 10:10:41 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.595 seconds (process running for 2.991)
+2024-11-30 10:10:48 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 10:10:48 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 10:10:48 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-30 10:10:48 [http-nio-8090-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/clients.]
+2024-11-30 10:11:48 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 10:11:48 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 10:11:53 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 2596 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:11:53 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:11:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 10:11:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 10:11:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 10:11:54 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:11:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 10:11:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 10:11:54 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 10:11:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+2024-11-30 10:11:55 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 10:11:55 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:11:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:11:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 10:11:55 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.586 seconds (process running for 2.98)
+2024-11-30 10:11:59 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 10:11:59 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 10:11:59 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-30 10:11:59 [http-nio-8090-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/clients.]
+2024-11-30 10:12:49 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+
+2024-11-30 10:12:49 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+
+2024-11-30 10:12:49 [http-nio-8090-exec-4] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=23445322
+
+2024-11-30 10:12:49 [http-nio-8090-exec-4] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 23445322
+
+2024-11-30 10:13:00 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+
+2024-11-30 10:13:00 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+
+2024-11-30 10:13:00 [http-nio-8090-exec-5] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+
+2024-11-30 10:13:00 [http-nio-8090-exec-5] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+
+2024-11-30 10:14:19 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+
+2024-11-30 10:14:19 [http-nio-8090-exec-8] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+
+2024-11-30 10:14:19 [http-nio-8090-exec-8] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=23445322
+
+2024-11-30 10:14:19 [http-nio-8090-exec-8] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 23445322
+
+2024-11-30 10:14:31 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 10:14:31 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 10:14:33 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 21704 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:14:33 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:14:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 10:14:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 10:14:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 10:14:34 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:14:34 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 10:14:34 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 10:14:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 10:14:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1248 ms
+2024-11-30 10:14:35 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 10:14:35 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:14:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:14:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 10:14:35 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.585 seconds (process running for 2.984)
+2024-11-30 10:14:40 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 10:14:40 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 10:14:40 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-30 10:14:40 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+
+2024-11-30 10:14:40 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+
+2024-11-30 10:14:40 [http-nio-8090-exec-1] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=23445322
+
+2024-11-30 10:14:40 [http-nio-8090-exec-1] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 23445322
+
+2024-11-30 10:14:47 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 10:14:47 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 10:14:47 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 10:15:16 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/234453221
+2024-11-30 10:15:16 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=234453221
+2024-11-30 10:15:16 [http-nio-8090-exec-4] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=234453221
+2024-11-30 10:15:16 [http-nio-8090-exec-4] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 234453221
+2024-11-30 10:15:21 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 10:15:21 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 10:15:21 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 10:15:26 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/D/23445322
+2024-11-30 10:15:26 [http-nio-8090-exec-6] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=D and documentNumber=23445322
+2024-11-30 10:15:26 [http-nio-8090-exec-6] WARN  c.e.apiClient.service.ClientService - Invalid document type received: D
+2024-11-30 10:15:26 [http-nio-8090-exec-6] WARN  c.e.a.controller.ClientController - Invalid document type: Invalid document type: D
+2024-11-30 10:24:10 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 10:24:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 10:24:13 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 19912 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:24:13 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:24:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 10:24:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 10:24:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 10:24:15 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:24:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 10:24:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 10:24:15 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 10:24:15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
+2024-11-30 10:24:15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 10:24:15 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:24:15 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 10:24:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 10:24:15 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.589 seconds (process running for 2.988)
+2024-11-30 10:24:21 [http-nio-8090-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 10:24:21 [http-nio-8090-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 10:24:21 [http-nio-8090-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-11-30 10:24:21 [http-nio-8090-exec-3] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/D/23445322
+2024-11-30 10:24:21 [http-nio-8090-exec-3] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=D and documentNumber=23445322
+2024-11-30 10:24:21 [http-nio-8090-exec-3] WARN  c.e.apiClient.service.ClientService - Invalid document type received: D
+2024-11-30 10:24:21 [http-nio-8090-exec-3] WARN  c.e.a.controller.ClientController - Invalid document type: Invalid document type: D
+2024-11-30 10:24:29 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+2024-11-30 10:24:29 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+2024-11-30 10:24:29 [http-nio-8090-exec-4] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+2024-11-30 10:24:29 [http-nio-8090-exec-4] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+2024-11-30 10:24:41 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/D/23445322
+2024-11-30 10:24:41 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=D and documentNumber=23445322
+2024-11-30 10:24:41 [http-nio-8090-exec-5] WARN  c.e.apiClient.service.ClientService - Invalid document type received: D
+2024-11-30 10:24:41 [http-nio-8090-exec-5] WARN  c.e.a.controller.ClientController - Invalid document type: Invalid document type: D
+2024-11-30 10:24:51 [http-nio-8090-exec-7] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 10:24:51 [http-nio-8090-exec-7] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 10:24:51 [http-nio-8090-exec-7] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 10:28:53 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 10:28:53 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 10:31:16 [main] INFO  c.e.a.ApiClientApplicationTests - Starting ApiClientApplicationTests using Java 21.0.5 with PID 5420 (started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:31:16 [main] INFO  c.e.a.ApiClientApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:31:17 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:31:17 [main] INFO  c.e.a.ApiClientApplicationTests - Started ApiClientApplicationTests in 1.986 seconds (process running for 2.811)
+2024-11-30 10:32:24 [main] INFO  c.e.a.ApiClientApplicationTests - Starting ApiClientApplicationTests using Java 21.0.5 with PID 6536 (started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:32:24 [main] INFO  c.e.a.ApiClientApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:32:25 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:32:25 [main] INFO  c.e.a.ApiClientApplicationTests - Started ApiClientApplicationTests in 2.164 seconds (process running for 2.953)
+2024-11-30 10:32:26 [main] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=99999999
+2024-11-30 10:32:26 [main] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=99999999
+2024-11-30 10:32:26 [main] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 10:32:26 [main] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=X and documentNumber=23445322
+2024-11-30 10:32:26 [main] WARN  c.e.apiClient.service.ClientService - Invalid document type received: X
+2024-11-30 10:34:43 [main] INFO  c.e.a.ApiClientApplicationTests - Starting ApiClientApplicationTests using Java 21.0.5 with PID 2068 (started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 10:34:43 [main] INFO  c.e.a.ApiClientApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 10:34:44 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 10:34:44 [main] INFO  c.e.a.ApiClientApplicationTests - Started ApiClientApplicationTests in 2.122 seconds (process running for 2.895)
+2024-11-30 10:34:45 [main] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/99999999
+2024-11-30 10:34:45 [main] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 99999999
+2024-11-30 10:34:45 [main] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 10:34:45 [main] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 10:34:45 [main] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/X/23445322
+2024-11-30 10:34:45 [main] WARN  c.e.a.controller.ClientController - Invalid document type: Invalid document type: X
+2024-11-30 10:34:45 [main] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=99999999
+2024-11-30 10:34:45 [main] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=99999999
+2024-11-30 10:34:45 [main] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 10:34:45 [main] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=X and documentNumber=23445322
+2024-11-30 10:34:45 [main] WARN  c.e.apiClient.service.ClientService - Invalid document type received: X
+2024-11-30 11:09:22 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 25792 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 11:09:22 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 11:09:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 11:09:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 11:09:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 11:09:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 11:09:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 11:09:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 11:09:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 11:09:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1246 ms
+2024-11-30 11:09:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 11:09:24 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 11:09:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 11:09:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 11:09:24 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.566 seconds (process running for 2.979)
+2024-11-30 11:09:47 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 11:09:47 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 11:09:47 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-30 11:09:47 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:09:47 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:09:47 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:10:45 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 11:10:45 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 11:10:48 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 11956 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 11:10:48 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 11:10:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 11:10:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 11:10:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 11:10:49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 11:10:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 11:10:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 11:10:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 11:10:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+2024-11-30 11:10:50 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 11:10:50 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 11:10:50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 11:10:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 11:10:50 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.582 seconds (process running for 2.989)
+2024-11-30 11:11:01 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 11:11:01 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 11:11:01 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-30 11:11:01 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:11:01 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:11:01 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:11:10 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 11:11:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 11:11:13 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 21464 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 11:11:13 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 11:11:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 11:11:13 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 11:11:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 11:11:15 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 11:11:15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 11:11:15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 11:11:15 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 11:11:15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1545 ms
+2024-11-30 11:11:16 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 11:11:16 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 11:11:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 11:11:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 11:11:16 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 3.169 seconds (process running for 3.605)
+2024-11-30 11:17:08 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 11:17:08 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 11:17:08 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-11-30 11:17:08 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:17:08 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:17:08 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:28:10 [http-nio-8090-exec-3] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:28:10 [http-nio-8090-exec-3] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:28:10 [http-nio-8090-exec-3] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:30:33 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:30:33 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:30:33 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:30:59 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:30:59 [http-nio-8090-exec-6] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:30:59 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:32:21 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:32:21 [http-nio-8090-exec-9] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:32:21 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:32:24 [http-nio-8090-exec-10] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/234453221
+2024-11-30 11:32:24 [http-nio-8090-exec-10] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=234453221
+2024-11-30 11:32:24 [http-nio-8090-exec-10] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=234453221
+2024-11-30 11:32:24 [http-nio-8090-exec-10] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 234453221
+2024-11-30 11:49:29 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:49:29 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:49:29 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:53:38 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 11:53:38 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 11:53:38 [http-nio-8090-exec-4] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 11:53:38 [http-nio-8090-exec-4] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 11:54:07 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:54:07 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:54:07 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:54:11 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:54:11 [http-nio-8090-exec-6] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:54:11 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:54:12 [http-nio-8090-exec-7] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:54:12 [http-nio-8090-exec-7] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:54:12 [http-nio-8090-exec-7] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:54:13 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:54:13 [http-nio-8090-exec-8] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:54:13 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:54:24 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:54:24 [http-nio-8090-exec-9] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:54:24 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:57:13 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/12312312
+2024-11-30 11:57:13 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=12312312
+2024-11-30 11:57:13 [http-nio-8090-exec-1] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=12312312
+2024-11-30 11:57:13 [http-nio-8090-exec-1] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 12312312
+2024-11-30 11:57:33 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:57:33 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:57:33 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:57:36 [http-nio-8090-exec-3] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:57:36 [http-nio-8090-exec-3] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:57:36 [http-nio-8090-exec-3] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:57:37 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:57:37 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:57:37 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:57:43 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:57:43 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:57:43 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:57:45 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+2024-11-30 11:57:45 [http-nio-8090-exec-6] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+2024-11-30 11:57:45 [http-nio-8090-exec-6] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+2024-11-30 11:57:45 [http-nio-8090-exec-6] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+2024-11-30 11:58:24 [http-nio-8090-exec-7] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:58:24 [http-nio-8090-exec-7] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:58:24 [http-nio-8090-exec-7] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:58:31 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:58:31 [http-nio-8090-exec-8] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:58:31 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 11:58:59 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 11:58:59 [http-nio-8090-exec-9] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 11:58:59 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 12:00:44 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:00:44 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:00:44 [http-nio-8090-exec-1] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:00:44 [http-nio-8090-exec-1] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:00:58 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 12:00:58 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 12:00:58 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 12:02:02 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 12:02:02 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 12:02:02 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 12:02:34 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 12:02:34 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 12:02:34 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 12:09:11 [http-nio-8090-exec-7] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:09:11 [http-nio-8090-exec-7] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:09:11 [http-nio-8090-exec-7] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:09:11 [http-nio-8090-exec-7] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:09:43 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:09:43 [http-nio-8090-exec-8] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:09:43 [http-nio-8090-exec-8] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:09:43 [http-nio-8090-exec-8] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:10:07 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:10:07 [http-nio-8090-exec-9] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:10:07 [http-nio-8090-exec-9] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:10:07 [http-nio-8090-exec-9] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:10:22 [http-nio-8090-exec-10] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:10:22 [http-nio-8090-exec-10] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:10:22 [http-nio-8090-exec-10] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:10:22 [http-nio-8090-exec-10] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:10:36 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:10:36 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:10:36 [http-nio-8090-exec-1] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:10:36 [http-nio-8090-exec-1] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:11:06 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:11:06 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:11:06 [http-nio-8090-exec-2] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:11:06 [http-nio-8090-exec-2] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:11:22 [http-nio-8090-exec-3] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/111111111
+2024-11-30 12:11:22 [http-nio-8090-exec-3] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=111111111
+2024-11-30 12:11:22 [http-nio-8090-exec-3] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=111111111
+2024-11-30 12:11:22 [http-nio-8090-exec-3] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 111111111
+2024-11-30 12:11:45 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:11:45 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:11:45 [http-nio-8090-exec-4] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:11:45 [http-nio-8090-exec-4] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:12:20 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+2024-11-30 12:12:20 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+2024-11-30 12:12:20 [http-nio-8090-exec-5] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+2024-11-30 12:12:20 [http-nio-8090-exec-5] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+2024-11-30 12:12:59 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:12:59 [http-nio-8090-exec-6] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:12:59 [http-nio-8090-exec-6] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:12:59 [http-nio-8090-exec-6] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:15:38 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+2024-11-30 12:15:38 [http-nio-8090-exec-8] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+2024-11-30 12:15:38 [http-nio-8090-exec-8] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+2024-11-30 12:15:38 [http-nio-8090-exec-8] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+2024-11-30 12:16:18 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+2024-11-30 12:16:18 [http-nio-8090-exec-9] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+2024-11-30 12:16:18 [http-nio-8090-exec-9] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+2024-11-30 12:16:18 [http-nio-8090-exec-9] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+2024-11-30 12:16:59 [http-nio-8090-exec-10] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:16:59 [http-nio-8090-exec-10] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:16:59 [http-nio-8090-exec-10] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:16:59 [http-nio-8090-exec-10] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:17:33 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/111111111
+2024-11-30 12:17:33 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=111111111
+2024-11-30 12:17:33 [http-nio-8090-exec-1] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=111111111
+2024-11-30 12:17:33 [http-nio-8090-exec-1] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 111111111
+2024-11-30 12:17:52 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+2024-11-30 12:17:52 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+2024-11-30 12:17:52 [http-nio-8090-exec-2] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+2024-11-30 12:17:52 [http-nio-8090-exec-2] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+2024-11-30 12:18:27 [http-nio-8090-exec-3] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:18:27 [http-nio-8090-exec-3] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:18:27 [http-nio-8090-exec-3] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:18:27 [http-nio-8090-exec-3] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:19:16 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/23445322
+2024-11-30 12:19:16 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=23445322
+2024-11-30 12:19:16 [http-nio-8090-exec-4] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=23445322
+2024-11-30 12:19:16 [http-nio-8090-exec-4] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 23445322
+2024-11-30 12:19:28 [http-nio-8090-exec-5] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:19:28 [http-nio-8090-exec-5] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:19:28 [http-nio-8090-exec-5] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:19:28 [http-nio-8090-exec-5] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:19:37 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/111111111
+2024-11-30 12:19:37 [http-nio-8090-exec-6] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=111111111
+2024-11-30 12:19:37 [http-nio-8090-exec-6] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=111111111
+2024-11-30 12:19:37 [http-nio-8090-exec-6] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 111111111
+2024-11-30 12:33:09 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 12:33:09 [http-nio-8090-exec-8] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 12:33:09 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 12:33:19 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/111111111
+2024-11-30 12:33:19 [http-nio-8090-exec-9] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=111111111
+2024-11-30 12:33:19 [http-nio-8090-exec-9] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=111111111
+2024-11-30 12:33:19 [http-nio-8090-exec-9] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 111111111
+2024-11-30 13:06:04 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-30 13:06:04 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-11-30 15:34:01 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Starting ApiClientApplication using Java 21.0.5 with PID 26488 (C:\Users\pc\Desktop\Prueba Complemento 360\apiClient\target\classes started by pc in C:\Users\pc\Desktop\Prueba Complemento 360\apiClient)
+2024-11-30 15:34:01 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-30 15:34:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-30 15:34:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-30 15:34:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-11-30 15:34:02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-11-30 15:34:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-30 15:34:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-30 15:34:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-30 15:34:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1320 ms
+2024-11-30 15:34:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-11-30 15:34:03 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-30 15:34:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-11-30 15:34:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2024-11-30 15:34:03 [restartedMain] INFO  c.e.apiClient.ApiClientApplication - Started ApiClientApplication in 2.745 seconds (process running for 3.232)
+2024-11-30 15:38:20 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-30 15:38:20 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-30 15:38:20 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-11-30 15:38:20 [http-nio-8090-exec-1] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/P/111111111
+2024-11-30 15:38:20 [http-nio-8090-exec-1] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=P and documentNumber=111111111
+2024-11-30 15:38:20 [http-nio-8090-exec-1] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=P and documentNumber=111111111
+2024-11-30 15:38:20 [http-nio-8090-exec-1] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document P 111111111
+2024-11-30 15:38:34 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 15:38:34 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 15:38:34 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
