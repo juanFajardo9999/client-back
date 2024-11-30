@@ -32,8 +32,7 @@ Este es un proyecto de API RESTful desarrollado con **Spring Boot** que permite 
 
 1. **Clonar el repositorio**
    ```bash
-   git clone <URL-DEL-REPOSITORIO>
-   cd clientes-api
+   git clone https://github.com/juanFajardo9999/client-front.git
 2. **Compilar y empaquetar la aplicación**
    ```bash
    ./mvnw clean package
@@ -42,5 +41,5 @@ Este es un proyecto de API RESTful desarrollado con **Spring Boot** que permite 
    ./mvnw test 
 4. **Uso de la API**
    ```bash
-   Puede usar el proyecto de FrontEnd ubicado en ...
+   Puede usar el proyecto de FrontEnd ubicado en https://github.com/juanFajardo9999/client-front
    O tambien puede ingresar a la documentacion de postman: https://documenter.getpostman.com/view/39096431/2sAYBYepVB
