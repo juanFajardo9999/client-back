@@ -447,3 +447,22 @@
 2024-11-30 15:38:34 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
 2024-11-30 15:38:34 [http-nio-8090-exec-2] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
 2024-11-30 15:38:34 [http-nio-8090-exec-2] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
+2024-11-30 16:03:56 [http-nio-8090-exec-4] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/234453222
+2024-11-30 16:03:56 [http-nio-8090-exec-4] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=234453222
+2024-11-30 16:03:56 [http-nio-8090-exec-4] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=234453222
+2024-11-30 16:03:56 [http-nio-8090-exec-4] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 234453222
+2024-11-30 16:04:24 [http-nio-8090-exec-6] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/S/234453221
+2024-11-30 16:04:24 [http-nio-8090-exec-6] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=S and documentNumber=234453221
+2024-11-30 16:04:24 [http-nio-8090-exec-6] WARN  c.e.apiClient.service.ClientService - Invalid document type received: S
+2024-11-30 16:04:24 [http-nio-8090-exec-6] WARN  c.e.a.controller.ClientController - Invalid document type: Invalid document type: S
+2024-11-30 16:05:56 [http-nio-8090-exec-8] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/234453221
+2024-11-30 16:05:56 [http-nio-8090-exec-8] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=234453221
+2024-11-30 16:05:56 [http-nio-8090-exec-8] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=234453221
+2024-11-30 16:05:56 [http-nio-8090-exec-8] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 234453221
+2024-11-30 16:06:03 [http-nio-8090-exec-9] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/234453222
+2024-11-30 16:06:03 [http-nio-8090-exec-9] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=234453222
+2024-11-30 16:06:03 [http-nio-8090-exec-9] WARN  c.e.apiClient.service.ClientService - Client not found for documentType=C and documentNumber=234453222
+2024-11-30 16:06:03 [http-nio-8090-exec-9] WARN  c.e.a.controller.ClientController - Client not found: Client not found with document C 234453222
+2024-11-30 16:06:16 [http-nio-8090-exec-10] INFO  c.e.a.controller.ClientController - Received request: GET /api/clients/C/23445322
+2024-11-30 16:06:16 [http-nio-8090-exec-10] INFO  c.e.apiClient.service.ClientService - Fetching client with documentType=C and documentNumber=23445322
+2024-11-30 16:06:16 [http-nio-8090-exec-10] INFO  c.e.a.controller.ClientController - Client found: Client(firstName=Juan, secondName=Carlos, firstLastName=Perez, secondLastName=Gomez, phone=1234567890, address=Calle 123, city=Bogotá, documentType=C, documentNumber=23445322)
