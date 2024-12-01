@@ -23,21 +23,18 @@ public class ClientService {
     ));
 
     public Client getClient(String documentType, String documentNumber) {
-        logger.info("Fetching client with documentType={} and documentNumber={}", documentType, documentNumber);
-
         validateDocumentType(documentType);
-
-        for (Client client : mockList) {
-            if (client.getDocumentType().equalsIgnoreCase(documentType) &&
-                    String.valueOf(client.getDocumentNumber()).equals(documentNumber)) {
-                logger.debug("Client found: {}", client);
-                return client;
-            }
-        }
-
-        logger.warn("Client not found for documentType={} and documentNumber={}", documentType, documentNumber);
-        throw new ClientNotFoundException("Client not found with document " + documentType + " " + documentNumber);
+        return findClient(documentType, documentNumber);
     }
+
+    private Client findClient(String documentType, String documentNumber) {
+        return mockList.stream()
+                .filter(client -> client.getDocumentType().equalsIgnoreCase(documentType) &&
+                        String.valueOf(client.getDocumentNumber()).equals(documentNumber))
+                .findFirst()
+                .orElseThrow(() -> new ClientNotFoundException("Client not found with document " + documentType + " " + documentNumber));
+    }
+
 
     private void validateDocumentType(String documentType) {
         if (!"C".equalsIgnoreCase(documentType) && !"P".equalsIgnoreCase(documentType)) {

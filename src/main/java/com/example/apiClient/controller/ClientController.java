@@ -17,7 +17,6 @@ import org.slf4j.LoggerFactory;
 public class ClientController {
 
     private static final Logger logger = LoggerFactory.getLogger(ClientController.class);
-
     private final ClientService clientService;
 
     public ClientController(ClientService clientService) {
@@ -25,36 +24,12 @@ public class ClientController {
     }
 
     @GetMapping("/{documentType}/{documentNumber}")
-    public ResponseEntity<?> getClient(
+    public ResponseEntity<Client> getClient(
             @PathVariable String documentType,
             @PathVariable String documentNumber) {
-        logger.info("Received request: GET /api/clients/{}/{}", documentType, documentNumber);
-
-        try {
-            Client client = clientService.getClient(documentType, documentNumber);
-            logger.info("Client found: {}", client);
-            return ResponseEntity.ok(client);
-        } catch (ClientNotFoundException e) {
-            logger.warn("Client not found: {}", e.getMessage());
-            ErrorResponse errorResponse = new ErrorResponse(
-                    "Client not found",
-                    "No client found with documentType=" + documentType + " and documentNumber=" + documentNumber
-            );
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorResponse);
-        } catch (InvalidDocumentTypeException e) {
-            logger.warn("Invalid document type: {}", e.getMessage());
-            ErrorResponse errorResponse = new ErrorResponse(
-                    "Invalid document type",
-                    "Allowed types are 'C' for Cedula and 'P' for Passport."
-            );
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
-        } catch (Exception e) {
-            logger.error("Unexpected error: {}", e.getMessage(), e);
-            ErrorResponse errorResponse = new ErrorResponse(
-                    "Internal server error",
-                    "An unexpected error occurred. Please try again later."
-            );
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
-        }
+        logger.info("Fetching client with documentType={} and documentNumber={}", documentType, documentNumber);
+        Client client = clientService.getClient(documentType, documentNumber);
+        return ResponseEntity.ok(client);
     }
 }
+

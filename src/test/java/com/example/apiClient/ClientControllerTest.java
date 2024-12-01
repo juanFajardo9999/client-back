@@ -1,51 +1,88 @@
 package com.example.apiClient;
 
+
 import com.example.apiClient.controller.ClientController;
 import com.example.apiClient.exception.ClientNotFoundException;
 import com.example.apiClient.exception.InvalidDocumentTypeException;
 import com.example.apiClient.model.Client;
 import com.example.apiClient.service.ClientService;
 import org.junit.jupiter.api.Test;
-import org.springframework.http.ResponseEntity;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-public class ClientControllerTest {
+@WebMvcTest(ClientController.class)
+class ClientControllerTest {
 
-    private final ClientService clientService = mock(ClientService.class);
-    private final ClientController clientController = new ClientController(clientService);
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private ClientService clientService;
+
 
     @Test
-    public void testGetClientSuccess() {
+    void getClientReturnsClientWhenClientExists() throws Exception {
+        String documentType = "C";
+        String documentNumber = "23445322";
         Client mockClient = new Client(
                 "Juan", "Carlos", "Perez", "Gomez",
-                "1234567890", "Calle 123", "Bogotá", "C", 23445322);
-        when(clientService.getClient("C", "23445322")).thenReturn(mockClient);
+                "1234567890", "Calle 123", "Bogotá",
+                documentType, Integer.parseInt(documentNumber)
+        );
 
-        ResponseEntity<?> response = clientController.getClient("C", "23445322");
+        when(clientService.getClient(documentType, documentNumber)).thenReturn(mockClient);
 
-        assertEquals(200, response.getStatusCodeValue());
-        assertEquals(mockClient, response.getBody());
+        mockMvc.perform(get("/api/clients/{documentType}/{documentNumber}", documentType, documentNumber)
+                        .accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.firstName").value("Juan"))
+                .andExpect(jsonPath("$.secondName").value("Carlos"))
+                .andExpect(jsonPath("$.firstLastName").value("Perez"))
+                .andExpect(jsonPath("$.secondLastName").value("Gomez"))
+                .andExpect(jsonPath("$.phone").value("1234567890"))
+                .andExpect(jsonPath("$.address").value("Calle 123"))
+                .andExpect(jsonPath("$.city").value("Bogotá"));
+    }
+
+
+    @Test
+    void getClientReturnsNotFoundWhenClientDoesNotExist() throws Exception {
+        String documentType = "C";
+        String documentNumber = "123456789";
+
+        when(clientService.getClient(documentType, documentNumber))
+                .thenThrow(new ClientNotFoundException("Client not found"));
+
+        mockMvc.perform(get("/api/clients/{documentType}/{documentNumber}", documentType, documentNumber)
+                        .accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isNotFound())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.error").value("Client not found"))
+                .andExpect(jsonPath("$.message").value("Client not found"));
     }
 
     @Test
-    public void testGetClientNotFound() {
-        when(clientService.getClient("C", "99999999"))
-                .thenThrow(new ClientNotFoundException("Client not found with document C 99999999"));
+    void getClientReturnsBadRequestWhenDocumentTypeIsInvalid() throws Exception {
+        String documentType = "INVALID";
+        String documentNumber = "123456789";
 
-        ResponseEntity<?> response = clientController.getClient("C", "99999999");
+        when(clientService.getClient(documentType, documentNumber))
+                .thenThrow(new InvalidDocumentTypeException("Invalid document type"));
 
-        assertEquals(404, response.getStatusCodeValue());
-    }
-
-    @Test
-    public void testInvalidDocumentType() {
-        when(clientService.getClient("X", "23445322"))
-                .thenThrow(new InvalidDocumentTypeException("Invalid document type: X"));
-
-        ResponseEntity<?> response = clientController.getClient("X", "23445322");
-
-        assertEquals(400, response.getStatusCodeValue());
+        mockMvc.perform(get("/api/clients/{documentType}/{documentNumber}", documentType, documentNumber)
+                        .accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isBadRequest())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.error").value("Invalid document type"))
+                .andExpect(jsonPath("$.message").value("Invalid document type"));
     }
 }
+
