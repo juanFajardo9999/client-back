@@ -1,11 +1,7 @@
 package com.example.apiClient.controller;
 
-import com.example.apiClient.exception.ClientNotFoundException;
-import com.example.apiClient.exception.InvalidDocumentTypeException;
 import com.example.apiClient.model.Client;
-import com.example.apiClient.model.ErrorResponse;
 import com.example.apiClient.service.ClientService;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.slf4j.Logger;
